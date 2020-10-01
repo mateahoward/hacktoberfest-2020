@@ -34,5 +34,5 @@ Not following the set rules might get your pull request rejected.
 
 
 ```bash
-Hosted on GitHub Pages:[HacktoberFest - Front End Challenge](https://mateahoward.github.io/hacktoberfest-2020/)
+Hosted on GitHub Pages: https://mateahoward.github.io/hacktoberfest-2020/
 ```
