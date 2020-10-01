@@ -1,0 +1,35 @@
+# HacktoberFest 2020 - Personalised Cards Challenge
+
+This project was set up as a simple front end challenge for HacktoberFest 2020 event. 
+
+The goal is to create your personal profile card and style it any way you'd like. 
+Make them funny or make them pretty - up to you!
+
+Before you start, please have a look at a couple of rules I've set up. 
+Not following the set rules might get your pull request rejected.
+
+## Content Rules | Forbidden
+- You're not allowed to submit offensive/disturbing text, images, videos and links of any kind.
+- You're not allowed to use copyrighted or promotional content not owned by yourself.
+- You're not allowed to use auto play feature for any videos submitted.
+- You're not allowed to copy and reuse already existing profile cards from this repository.
+- You're not allowed to override existing CSS classes. 
+- You're not allowed to import additionsl libraries and frameworks without asking first.
+
+## Content Rules | Permitted
+- You are only allowed to post personal links to your portfolios, projects or social media.
+- You are only allowed to use personally owned images or videos. (Videos via embeds).
+- You are only allowed to take on additional tasks after your PR has been accepted.
+- You are allowed to use any human spoken language of your choice when creating your profile card.
+
+
+###### Additional Task List | Updated: Oct 1st
+* Review meta description and add remaining relevant SEO features
+* Change typeface of hero section to [Neucha](https://fonts.google.com/specimen/Neucha)
+* Center 'rules container' on mobile devices
+* Display footer paragraph on one line if viewed on mobile devices
+
+
+```bash
+Hosted on GitHub Pages: ##
+```
