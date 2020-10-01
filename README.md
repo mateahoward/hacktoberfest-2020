@@ -22,6 +22,9 @@ Not following the set rules might get your pull request rejected.
 - You are only allowed to take on additional tasks after your PR has been accepted.
 - You are allowed to use any human spoken language of your choice when creating your profile card.
 
+## When sending your Pull Requests:
+* Make a new branch and name it after yourself 
+* Leave a commit message explaining your changes
 
 ###### Additional Task List | Updated: Oct 1st
 * Review meta description and add remaining relevant SEO features
@@ -31,5 +34,5 @@ Not following the set rules might get your pull request rejected.
 
 
 ```bash
-Hosted on GitHub Pages: ##
+Hosted on GitHub Pages:[HacktoberFest - Front End Challenge](https://mateahoward.github.io/hacktoberfest-2020/)
 ```
