@@ -605,3 +605,46 @@ footer a {
 }
 
 /* Tom Lynch End */
+/** START Rick **/
+#rick-profile{
+    margin: 50px;
+    min-height: 300px;
+}
+#rick-profile .card{
+    box-shadow: -17px 18px 17px 0px rgba(94,93,94,1);
+    border-radius: 110px 0px 0px 32px;
+    background: black;
+    width: 300px;
+    margin-top: 20px;
+    min-height: 250px;
+    padding: 10px;
+}
+#rick-profile img {
+    background: unset;
+    border-radius: 168px;
+    max-width: 60%;
+    box-shadow: 41px 39px 45px -23px rgb(99 121 125);
+    padding: 10px;
+}
+
+#rick-profile .card >.card-body {
+    background: chartreuse;
+    padding: 15px;
+    border-radius: 97px 52px 91px 50px;
+}
+
+.rick-image-wrapper {
+    width: 97%;
+    min-height: 175px;
+    text-align: center;
+    background-position:top;
+    background-image: url(https://cdn.wallpapersafari.com/66/74/IJhy8D.png);
+    border-radius: 110px 0px 0px 6px;
+    margin-bottom: 15px;
+    animation: rick-img 6s linear forwards infinite;
+}
+@keyframes rick-img {
+    from    {background-position:top ;}
+    to      {background-position:bottom right;}
+}
+/** END Rick **/
