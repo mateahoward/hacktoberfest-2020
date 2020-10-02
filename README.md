@@ -10,11 +10,11 @@ Not following the set rules might get your pull request rejected.
 
 # How to contribute to open source projects? 
 
-You need to fork the repository
-You need to clone the repository to your machine
-You need to create a new branch [ you can name it the same as your username ]
-You need to send a commit and leave a commit message for clarity
-You need to create a Pull Request and wait for it to be merged 
+- You need to fork the repository
+- You need to clone the repository to your machine
+- You need to create a new branch [ you can name it the same as your username ]
+- You need to send a commit and leave a commit message for clarity
+- You need to create a Pull Request and wait for it to be merged 
 
 
 ## Content Rules | Forbidden
