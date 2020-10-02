@@ -434,3 +434,174 @@ footer a {
         transform: rotate(1turn);
     }
 }
+
+
+/* Tom Lynch Card */
+.card-lynch {
+    max-width: 300px;
+    border-radius: 1rem;
+    padding: 2rem 0 0 0;
+    overflow: hidden;
+    background: transparent;
+    border: none;
+    margin-top: 2rem;
+}
+
+.card-img {
+    position: relative;
+    max-width: 40%;
+    padding: 8px;
+    background: #5a5d7d;
+    border-radius: 50%;
+    margin: 0 auto 1rem;
+}
+
+.card-img-lynch {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+.card-img .image {
+    position: relative;
+}
+
+.card-img .image:before {
+    content: "";
+    position: absolute;
+    top: 0%;
+    left: 10%;
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+    background: radial-gradient(circle at 50% 0px, #ffffff, rgba(255, 255, 255, 0) 58%);
+    -webkit-filter: blur(5px);
+    z-index: 2;
+    transform: rotate(45deg);
+}
+
+.card-img .image:after {
+    content: "";
+    position: absolute;
+    border-radius: 100%;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: radial-gradient(circle at 50% 30%, rgba(245, 237, 48, 0), rgb(3 160 234 / 27%) 50%, #5a7d7d 100%);
+    transform: rotate(45deg);
+}
+
+.hvr-float-shadow {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+
+    animation: bounce 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+}
+
+.hvr-float-shadow:before {
+    pointer-events: none;
+    position: absolute;
+    z-index: -1;
+    content: '';
+    top: 100%;
+    left: 5%;
+    height: 10px;
+    width: 90%;
+    opacity: 0;
+    background: -webkit-radial-gradient(center, ellipse, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
+    background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform, opacity;
+    transition-property: transform, opacity;
+
+    animation: bounce-shadow 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+}
+
+@keyframes bounce {
+    0%, 100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+    50% {
+        -webkit-transform: translateY(-8px);
+        transform: translateY(-8px);
+    }
+}
+
+@keyframes bounce-shadow {
+    0%, 100% {
+        opacity: 0.2;
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+    50% {
+        opacity: 1;
+        -webkit-transform: translateY(8px);
+        transform: translateY(8px);
+    }
+}
+
+.card-text-tom {
+    font-size: 0.9em;
+}
+
+.card-subtext-tom {
+    font-size: 0.85em;
+    color: grey;
+}
+
+.btn-tom {
+    background: #77c2d8;
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    letter-spacing: 1px;
+    padding: 0.8em 1.5em;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+}
+
+.card-lynch .card-body {
+    margin-top: 1rem;
+    padding: 1.5rem;
+    background: #e4f5ff;
+    border-radius: 0;
+    border-radius: 1rem;
+    border: 1px solid rgba(0, 0, 0, .125)
+}
+
+.tom-social-button {
+    width: 2rem;
+    margin: 0 0.5rem;
+    height: 2rem;
+    display: inline-block;
+    position: relative;
+    border-radius: 50%;
+    border: 1px solid #4e8c9e;
+    color: #4e8c9e;
+    box-shadow: inset 0 1px 5px white, 0 1px 3px rgba(0, 0, 0, 0.3);
+    vertical-align: middle;
+    font-size: 0.9em;
+}
+
+.tom-social-button i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+/* Tom Lynch End */
