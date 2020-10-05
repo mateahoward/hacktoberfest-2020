@@ -862,3 +862,43 @@ footer a {
     }
 }
 /** Cajs END */
+
+/* ---- START Fede's card CSS ---- */
+.card-fede {
+    margin: 0 20px;
+    padding: 10px 0px;
+    text-align: center;
+    width: 300px;
+    height: 100%;
+    background-color: white;
+    border-radius: 5%;
+}
+
+.card-fede-img {
+    padding: 2%;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.card-fede-title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card-fede-subtitle {
+    text-transform: uppercase;
+    color: gray;
+    padding-bottom: 5px;
+}
+
+.card-fede-body {
+    height: 12vh;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 10px rgba(51,51,51,.5);
+}
+
+.card-fede-body p {
+    font-family: sans-serif;
+    padding: 5px 10px;
+}
+
+/* ---- END Fede's card CSS ---- */
