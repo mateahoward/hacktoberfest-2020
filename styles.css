@@ -1192,3 +1192,87 @@ footer a {
   position: absolute;
 }
 /* End Raffly's CSS */
+
+/* Start Miguelmml's CSS */
+.miguelCard{
+  font-size: 1rem;
+  font-family: "Grotesque", sans-serif;
+  color: white;
+  background: linear-gradient(135deg, #45484d 0%,#212121 21%,#191919 37%,#212121 53%,#45484d 100%);
+  width: 21em;
+  min-width: 21em;
+  height: 25em;
+  margin: 2em;
+  border-top-left-radius: 5em;
+  border-bottom-right-radius: 5em;
+  position: relative;
+  box-shadow: 6px 6px 10px 0px rgb(75, 72, 72);
+  background-size: 200% 200%;
+  transition: 1s ease;
+}
+.miguelCard:hover{
+  background-position: 100% 100%;
+}
+.miguelCard:hover .miguelCard__img{
+  transform: translate(-50%, -50%) rotateY(900deg);
+  opacity: .2;
+}
+.miguelCard:hover .miguelCard__button{
+  opacity: 1;
+  transition: opacity .2s .9s;
+}
+.miguelCard__content{
+  font-size: 1.1rem;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  padding: 1.6em 1em .5em 1.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.miguelCard__content--topText{
+  font-size: 1.3rem;
+  align-self: flex-start;
+}
+.miguelCard__content--topText > span{
+ font-size: 1.9rem;
+}
+.miguelCard__content--bottomText{
+  width: 70%;
+  align-self: flex-end;
+}
+.miguelCard__img{
+  position: absolute;
+  width: 39%;
+  border-radius: 50em;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: transform 1.4s, opacity 1.4s;
+}
+.miguelCard__img > img{
+  max-width: 100%;
+}
+.miguelCard__button{
+  display: block;
+  width: 5.5em;
+  font-weight: bold;
+  padding: .6em;
+  text-align: center;
+  position: absolute;
+  border: 4px solid #c2902d;
+  border-radius: 4px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity .2s 0s;
+}
+.miguelCard__button:hover{
+  background-color: rgba(255, 255, 255, 0.618);
+  text-decoration: none;
+  color: rgb(26, 25, 25);
+}
+/* End Miguelmml's CSS */
