@@ -1192,3 +1192,12 @@ footer a {
   position: absolute;
 }
 /* End Raffly's CSS */
+
+
+/* ---- START rspineda's card CSS ---- */
+.slide{
+  max-width: 700px;
+  max-height: 350px;
+}
+
+/* ---- END Frspineda's card CSS ---- */
