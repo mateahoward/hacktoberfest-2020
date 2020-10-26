@@ -1195,9 +1195,39 @@ footer a {
 
 
 /* ---- START rspineda's card CSS ---- */
-.slide{
-  max-width: 700px;
-  max-height: 350px;
+.rsp-container{
+  width: 90%;
+  max-width: 350px;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  box-sizing: border-box;
+  
+}
+
+.rsp-card{
+  font-family: 'Barlow Condensed', sans-serif;
+  background-color: #c9c9ce;
+  border: 1px solid grey;
+  border-radius: 5px;
+  margin: 10px 0;
+  overflow: hidden;
+  z-index: 1000;
+}
+
+.banner img{
+  max-height: 400px;
+}
+
+.social-networks{
+  background-image: url('assets/rspineda-background.png');
+  text-align: center;
+}
+
+.country img{
+  margin: auto;
 }
 
 /* ---- END Frspineda's card CSS ---- */
