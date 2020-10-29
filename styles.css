@@ -1549,3 +1549,44 @@ a:-webkit-any-link {
 }
 /* End Pliavi's CSS */
 
+/* Begin Jonathan's CSS */
+.card-container {
+  margin: 20px;
+  width: 350px;
+  max-width: 350px;
+  border-radius: 0;
+  box-shadow: 0 2px 5px #e0e0e0;
+}
+
+.card-image {
+  width: 150px;
+  height: 160px;
+  margin: 50px auto 0 auto;
+}
+
+.card-image img {
+  box-shadow: 0 5px 5px #e0e0e0;
+}
+
+.card-title {
+  font-size: 20px;
+}
+
+.card-title--grey {
+  color: #353f4f;
+}
+
+.badge--large {
+  padding: 5px;
+  color: #353f4f;
+  background-color: #fff;
+  border: 1px solid #353f4f;
+}
+
+.card-footer--muted {
+  background-color: #fff;
+  margin: 0 10px;
+  padding: 10px 0;
+}
+
+/* End Jonathan's CSS */
