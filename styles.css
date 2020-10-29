@@ -187,8 +187,6 @@ main {
   padding-bottom: 0;
 }
 
-.card-title-likii {
-}
 
 .card-text-likii {
   background-color: white;
@@ -1192,6 +1190,364 @@ footer a {
   position: absolute;
 }
 /* End Raffly's CSS */
+
+
+
+/* ---- START rspineda's card CSS ---- */
+.rsp-container{
+  width: 90%;
+  max-width: 350px;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  box-sizing: border-box;
+  
+}
+
+.rsp-card{
+  font-family: 'Barlow Condensed', sans-serif;
+  background-color: #c9c9ce;
+  border: 1px solid grey;
+  border-radius: 5px;
+  margin: 10px 0;
+  overflow: hidden;
+  z-index: 1000;
+}
+
+.banner img{
+  max-height: 400px;
+}
+
+.social-networks{
+  background-image: url('assets/rspineda-background.png');
+  text-align: center;
+}
+
+.country img{
+  margin: auto;
+}
+
+/* ---- END Frspineda's card CSS ---- */
+
+/* Start Kriti's CSS */
+.k-container {
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  height: 400px;
+  background: #ffffe0;
+  box-shadow: 1px 1px 3px #302d3a;
+}
+
+.upper-layer {
+  width: 100%;
+  height: 180px;
+  background: #fcf4a3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.k-image img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-top: px;
+}
+.name {
+  color: #301d3a;
+  font-size: 20px;
+  font-weight: bold;
+}
+.content-area {
+  padding: 0 10px;
+  margin: 10px;
+}
+.content-area h4 {
+  font-family: sans-serif;
+  margin-bottom: 5px;
+}
+h4 {
+  display: block;
+  margin-block-start: 1.33em;
+  margin-block-end: 1.33em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+a:-webkit-any-link {
+  color: -webkit-link;
+  cursor: pointer;
+  text-decoration: underline;
+}
+/* End Kriti's CSS */
+
+/* Start Miguelmml's CSS */
+.miguelCard{
+  font-size: 1rem;
+  font-family: "Grotesque", sans-serif;
+  color: white;
+  background: linear-gradient(135deg, #45484d 0%,#212121 21%,#191919 37%,#212121 53%,#45484d 100%);
+  width: 21em;
+  min-width: 21em;
+  height: 25em;
+  margin: 2em;
+  border-top-left-radius: 5em;
+  border-bottom-right-radius: 5em;
+  position: relative;
+  box-shadow: 6px 6px 10px 0px rgb(75, 72, 72);
+  background-size: 200% 200%;
+  transition: 1s ease;
+}
+.miguelCard:hover{
+  background-position: 100% 100%;
+}
+.miguelCard:hover .miguelCard__img{
+  transform: translate(-50%, -50%) rotateY(900deg);
+  opacity: .2;
+}
+.miguelCard:hover .miguelCard__button{
+  opacity: 1;
+  transition: opacity .2s .9s;
+}
+.miguelCard__content{
+  font-size: 1.1rem;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  padding: 1.6em 1em .5em 1.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.miguelCard__content--topText{
+  font-size: 1.3rem;
+  align-self: flex-start;
+}
+.miguelCard__content--topText > span{
+ font-size: 1.9rem;
+}
+.miguelCard__content--bottomText{
+  width: 70%;
+  align-self: flex-end;
+}
+.miguelCard__img{
+  position: absolute;
+  width: 39%;
+  border-radius: 50em;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: transform 1.4s, opacity 1.4s;
+}
+.miguelCard__img > img{
+  max-width: 100%;
+}
+.miguelCard__button{
+  display: block;
+  width: 5.5em;
+  font-weight: bold;
+  padding: .6em;
+  text-align: center;
+  position: absolute;
+  border: 4px solid #c2902d;
+  border-radius: 4px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity .2s 0s;
+}
+.miguelCard__button:hover{
+  background-color: rgba(255, 255, 255, 0.618);
+  text-decoration: none;
+  color: rgb(26, 25, 25);
+}
+/* End Miguelmml's CSS */
+
+
+/* Start Pliavi's CSS */
+/* dark-mode variables */
+.plv-darkmode-toggle:checked ~ .plv-theme-provider {
+  --plv-mode-icon: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAJCAYAAADgkQYQAAAABHNCSVQICAgIfAhkiAAAADVJREFUGFdjZEAC33/9+Y/MB7E52VgYGWGCuBSA5MGK8CkAK0JXADIe3UoqKiLKTUT7jpBCAOYWJAr77ElcAAAAAElFTkSuQmCC");
+  --plv-card-color: #2d3748;
+  --plv-border-color: #1a202c;
+  --plv-font-color: #f7fafc;
+  --plv-shadow-color: #1a202c44;
+  --plv-rolling-bar: linear-gradient(
+    #1a202c 0%,
+    #fff0 40%,
+    #fff0 60%,
+    #1a202c 100%
+  );
+}
+
+.plv-card h1,
+.plv-card h2,
+.plv-card h3 {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.plv-card h1 {
+  margin-top: .8rem;
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+}
+
+.plv-card-wrapper {
+  position: relative;
+  color: var(--plv-font-color, #4a5568);
+  background-color: var(--plv-card-color, #f7fafc);
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  width: 300px;
+  height: 450px;
+  border: 2px solid var(--plv-border-color, #cbd5e0);
+  border-radius: 0.5rem;
+  box-shadow: 0 3px 6px var(--plv-shadow-color, #285e6144);
+  overflow: hidden;
+  font-family: sans-serif;
+}
+
+.plv-languages {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 4rem;
+  overflow: hidden;
+  position: relative;
+  flex-shrink: 0;
+  border-bottom: 2px solid var(--plv-border-color, #cbd5e0);
+  border-radius: 0 0 0.5rem 0.5rem;
+}
+
+.plv-hellos {
+  position: absolute;
+  top: 0;
+  text-align: center;
+  animation: 10s ease-in-out 0.5s infinite alternate plv-run-languages both;
+}
+
+.plv-language-cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: var(
+    --plv-rolling-bar,
+    linear-gradient(#e2e8f0 0%, #fff0 40%, #fff0 60%, #e2e8f0 100%)
+  );
+}
+
+.plv-hello {
+  padding: 0;
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+  display: flex;
+  height: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.plv-about {
+  text-align: center;
+  padding: 0.5rem 1rem;
+}
+
+.plv-photo {
+  border-radius: 100%;
+  border: 3px solid var(--plv-border-color, #cbd5e0);
+}
+
+.plv-social {
+  margin-top: .5rem;
+}
+
+/* icons */
+.plv-icon {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  image-rendering: pixelated;
+  height: 20px;
+  width: 20px;
+  display: inline-block;
+}
+
+.plv-twitch {
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAABHNCSVQICAgIfAhkiAAAAFRJREFUGFdjZACCFMel/0E0PsAIUzR7XxROdalOyxgwFIIEYZpgbDopxOZQrFajKwQpmrM/mhHuGZgCZI+AxECKQDRWhTBTkE0Hq4YBWJjCTEGWAwAsvUfBN93G0gAAAABJRU5ErkJggg==);
+}
+
+.plv-twitter {
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAABHNCSVQICAgIfAhkiAAAADRJREFUGFdjZCASMMLVLX/2H8yOlEKIIRlCgUJkpyCZjmki0QoHwI0gt8GCCOZOrJ4hEPAA6pYYC6pJVYwAAAAASUVORK5CYII=);
+}
+
+.plv-github {
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAABHNCSVQICAgIfAhkiAAAAFJJREFUGFdjVJCX///g4UNGBjwApIYRRIDUgBTD2DA9yGIYkrgMpqHC+w8eYLVVUUEBLA62GqYIJIiLTbxCkLHIpqLbD7IFFEzwgEYPQ+SwBLEBIQw288l+td8AAAAASUVORK5CYII=);
+}
+
+.plv-sun {
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAJCAYAAADgkQYQAAAABHNCSVQICAgIfAhkiAAAADxJREFUGFdjZEADuuYe/y+f3MGILAzmYJNAFkfRgW4qjI+iCGQiTALZSkZkq7ApAokRZxIud1DuO2zBAQDh2Cm1kzvKtAAAAABJRU5ErkJggg==);
+}
+
+.plv-moon {
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAJCAYAAADgkQYQAAAABHNCSVQICAgIfAhkiAAAADVJREFUGFdjZEAC33/9+Y/MB7E52VgYGWGCuBSA5MGK8CkAK0JXADIe3UoqKiLKTUT7jpBCAOYWJAr77ElcAAAAAElFTkSuQmCC);
+}
+
+/* dark mode toggler */
+.plv-mode-toggle {
+  background-image: var(
+    --plv-mode-icon,
+    url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAJCAYAAADgkQYQAAAABHNCSVQICAgIfAhkiAAAADxJREFUGFdjZEADuuYe/y+f3MGILAzmYJNAFkfRgW4qjI+iCGQiTALZSkZkq7ApAokRZxIud1DuO2zBAQDh2Cm1kzvKtAAAAABJRU5ErkJggg==")
+  );
+  width: 16px;
+  height: 16px;
+}
+
+.plv-darkmode-icon {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  right: 8px;
+  bottom: 8px;
+  padding: 2px;
+  width: 20px;
+  height: 20px;
+  border: 1px solid var(--plv-border-color, #cbd5e0);
+  background-color: var(--plv-card-color, #f7fafc);
+  filter: contrast(.8);
+  border-radius: 3px;
+}
+.plv-darkmode-icon:hover {
+  filter: contrast(.5);
+}
+
+/* header animation */
+@keyframes plv-run-languages {
+  0%   { top: 1rem; }
+  10%  { top: -1rem; }
+  20%  { top: -3rem; }
+  30%  { top: -5rem; }
+  40%  { top: -7rem; }
+  50%  { top: -9rem; }
+  60%  { top: -11rem; }
+  70%  { top: -13rem; }
+  80%  { top: -15rem; }
+  90%  { top: -17rem; }
+  100% { top: -19rem; }
+}
+/* End Pliavi's CSS */
 
 /* Begin Jonathan's CSS */
 .card-container {
