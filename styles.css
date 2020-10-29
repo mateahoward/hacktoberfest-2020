@@ -1549,3 +1549,62 @@ a:-webkit-any-link {
 }
 /* End Pliavi's CSS */
 
+/* Start igor's CSS */
+.igorCard {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.5s;
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: sans-serif;
+  background-color: #22212C;
+}
+.igorCard:hover{
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.6);
+}
+.igorCard h1, p {
+  color: #fff;
+}
+.igorCard img {
+    max-width: 200px;
+  margin-top: 3vh;
+  border: double 5px transparent;
+  border-radius: 50%;
+  background-image: linear-gradient(white, white), radial-gradient(circle at top left, #9580ff,#80ffea);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+
+.igorCard h1:after {
+  display: flex;
+  justify-content: center;
+  content: '🇧🇷';
+}
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+   background-image: linear-gradient(to right, #9580ff,#80ffea);
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #fff;
+}
+
+button:hover, a:hover {
+  opacity: 0.9;
+}
+/* End igor's CSS */
