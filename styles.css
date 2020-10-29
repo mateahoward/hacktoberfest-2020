@@ -1551,7 +1551,7 @@ a:-webkit-any-link {
 
 /* Begin Jonathan's CSS */
 .card-container {
-  margin: 0 20px;
+  margin: 20px;
   width: 350px;
   max-width: 350px;
   border-radius: 0;
