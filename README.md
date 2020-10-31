@@ -1,4 +1,4 @@
-# HacktoberFest 2020 - Personalised Cards Challenge
+# HacktoberFest 2020 - Personalised Cards Challenge - NOW CLOSED
 
 This project was set up as a simple front end challenge for HacktoberFest 2020 event. 
 
@@ -35,13 +35,4 @@ Not following the set rules might get your pull request rejected.
 * Make a new branch and name it after yourself 
 * Leave a commit message explaining your changes
 
-###### Additional Task List | Updated: Oct 1st
-* Review meta description and add remaining relevant SEO features
-* Change typeface of hero section to [Neucha](https://fonts.google.com/specimen/Neucha)
-* Center 'rules container' on mobile devices
-* Display footer paragraph on one line if viewed on mobile devices
 
-
-```bash
-Hosted on GitHub Pages: https://mateahoward.github.io/hacktoberfest-2020/
-```
