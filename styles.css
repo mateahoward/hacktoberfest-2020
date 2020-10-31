@@ -1590,3 +1590,54 @@ a:-webkit-any-link {
 }
 
 /* End Jonathan's CSS */
+
+
+
+/* Start Katrina's CSS */
+#roundCard {
+  background-image: url(assets/kat.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 450px;
+  height: 450px;
+  box-shadow: 3px 3px 6px black;
+  border: 1px solid black;
+  background-color: #000000d6;
+  padding: 0px 10px 0px 10px;
+  color: transparent;
+  text-align: center;
+  text-decoration: none;
+}
+#roundCard:hover {
+  box-shadow: none;
+  background-blend-mode: overlay;
+  transition: ease-out;
+  transition-duration: 0.25s;
+  -webkit-clip-path: inset(0px);
+  clip-path: inset(0px);
+  cursor: pointer;
+  color: white;
+
+  
+}
+#roundCardText {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+.katTitle {
+  font-size: 2em;
+}
+.katSub {
+  font-size: 1em;
+  font-weight: 300;
+}
+.katP {
+margin-top: 5%;
+margin-bottom: 5%;
+}
+/* End Katrina's CSS */
